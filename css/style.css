@@ -1,3 +1,109 @@
+header {
+	background-color: cyan;
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.container {
+	width: 1165px;
+	margin: 0 auto;
+}
+.logo {
+	margin-right: 50px;
+	font-size: 48px;
+	vertical-align: middle;
+	color: hotpink;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+} 
+
+li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+li a {
+	font-size: 26px;
+
+}
+
+/*phptp sec*/
+
+.photosec {
+	margin-top: 100px;
+}
+
+.wrapper {
+/*	border: 5px solid red;*/
+	display: inline-block;
+	position: relative;
+
+}
+.city {
+}
+
+h3 {
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+/*section 1*/
+.didibox {
+	border: 2px solid red;
+	background-color: lightgreen;
+	width: 900px;
+	height: 700px;
+	position: relative;
+	top: 100px;
+	left: 400px;
+	z-index: 30;
+}
+.patarbox {
+	border: 2px solid red;
+	/*background-color: lightpink;
+	width: 200px;
+	height: 100px;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+.s-2 {
+	margin-top: 88px;
+}
+
 h2 {
+	font-size: 36px;
 	color: red;
 }
+p {
+	width: 500px;
+	margin-bottom: 30px;
+}
+
+
+
+
